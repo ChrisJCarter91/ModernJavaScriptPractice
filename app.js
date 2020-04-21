@@ -19,5 +19,26 @@ numbers[2] = 100
 // Find index of value
 val = numbers.indexOf(36);
 
+// Mutating arrays
+//Add to end
+numbers.push(250);
+//Add to front
+numbers.unshift(120);
+//Take off from end
+numbers.pop();
+//Remove from front
+numbers.shift();
+//Splice values
+numbers.slice(1,1)
+//Reverse
+numbers.reverse();
+
+//Concatenate array
+val = numbers.concat(numbers2);
+
+//Sorting arrays
+val = fruit.sort();
+val = numbers.sort();
+
 console.log(numbers)
 console.log(val);
