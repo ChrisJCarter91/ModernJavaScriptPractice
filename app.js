@@ -1,11 +1,21 @@
-//Dates and Times
+// if(something){
+//     do something
+// } else {
+//     do something else
+// };
 
-let val;
+const id = 100;
 
-const today = new Date();
-let birthday = new Date("1-18-1991");
-birthday = new Date("September 10 1981");
+//Equal to
+if(id == 101){
+    console.log("Correct");
+} else {
+    console.log("Incorrect");
+}
 
-val = birthday;
-
-console.log(val);
+// Not equal to
+if(id != 101){
+    console.log("Correct");
+} else {
+    console.log("Incorrect");
+}
