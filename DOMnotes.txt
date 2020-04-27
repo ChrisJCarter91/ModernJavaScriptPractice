@@ -1,0 +1,11 @@
+What is the DOM?
+
+- Document Object Model
+- Structured representation of an HTML DOC
+- Tree of nodes or elements CREATED BY BROWSER
+- Object Oriented Representation
+
+-Window object > Document Object > Root Element
+
+Document Object
+
