@@ -47,18 +47,23 @@
 // })
 
 function flip(repeat) {
+    var countHeads = 0;
+
     for (let i = 0; i < repeat; i++) {
         var coinFlip = Math.round(Math.random());
-    
+
         if (coinFlip === 1) {
-        console.log("heads");
-        
+            console.log("heads");
+            countHeads = countHeads + 1;
         }
-    
+
         if (coinFlip === 0) {
-        console.log("tails")
+            console.log("tails");
         }
     }
-    }
+
+    //return (countHeads/repeat);
+    console.log(countHeads/repeat);
+}
 
 flip(100);
